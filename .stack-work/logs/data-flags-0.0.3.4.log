@@ -1,0 +1,8 @@
+Configuring data-flags-0.0.3.4...
+Preprocessing library for data-flags-0.0.3.4..
+Building library for data-flags-0.0.3.4..
+[1 of 3] Compiling Data.Flags.Base  ( src/Data/Flags/Base.hs, .stack-work/dist/x86_64-linux-nix/Cabal-2.4.0.1/build/Data/Flags/Base.o )
+[2 of 3] Compiling Data.Flags.TH    ( src/Data/Flags/TH.hs, .stack-work/dist/x86_64-linux-nix/Cabal-2.4.0.1/build/Data/Flags/TH.o )
+[3 of 3] Compiling Data.Flags       ( src/Data/Flags.hs, .stack-work/dist/x86_64-linux-nix/Cabal-2.4.0.1/build/Data/Flags.o )
+Installing library in /home/george/haskell-wayland/.stack-work/install/x86_64-linux-nix/nightly-2019-01-15/8.6.3/lib/x86_64-linux-ghc-8.6.3/data-flags-0.0.3.4-7JwyNYWyqo8AfhISienXxt
+Registering library for data-flags-0.0.3.4..

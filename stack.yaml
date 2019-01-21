@@ -1,0 +1,11 @@
+resolver: nightly-2019-01-15
+packages:
+- .
+extra-deps:
+- data-flags-0.0.3.4
+
+# require-stack-version: ">=1.7.1 && <1.11"
+
+nix:
+  enable: false
+  shell-file: shell.nix
