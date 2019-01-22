@@ -9,4 +9,4 @@ cabal-dev
 cabal.sandbox.config
 TAGS
 tags
-.stack-work/
+.stack-work
