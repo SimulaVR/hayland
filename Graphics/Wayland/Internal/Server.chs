@@ -1,26 +1,27 @@
 -- Trying my best to piss off the Safe Haskell guys
 {-# LANGUAGE TemplateHaskell, GeneralizedNewtypeDeriving #-}
-module Graphics.Wayland.Internal.Server (
-  ClientState(..), clientStateReadable, clientStateWritable, clientStateHangup,
-  clientStateError,
+module Graphics.Wayland.Internal.Server where
+  -- Expose it all:
+  -- ClientState(..), clientStateReadable, clientStateWritable, clientStateHangup,
+  -- clientStateError,
 
-  EventLoop, EventSource,
+  -- EventLoop, EventSource,
 
-  EventLoopFdFunc, EventLoopTimerFunc, EventLoopSignalFunc, EventLoopIdleFunc,
+  -- EventLoopFdFunc, EventLoopTimerFunc, EventLoopSignalFunc, EventLoopIdleFunc,
 
-  eventLoopCreate, eventLoopDestroy, eventLoopAddFd, eventSourceFdUpdate,
-  eventLoopAddTimer, eventLoopAddSignal, eventSourceTimerUpdate, eventSourceRemove,
-  eventSourceCheck, eventLoopDispatch, eventLoopDispatchIdle, eventLoopAddIdle, eventLoopGetFd,
+  -- eventLoopCreate, eventLoopDestroy, eventLoopAddFd, eventSourceFdUpdate,
+  -- eventLoopAddTimer, eventLoopAddSignal, eventSourceTimerUpdate, eventSourceRemove,
+  -- eventSourceCheck, eventLoopDispatch, eventLoopDispatchIdle, eventLoopAddIdle, eventLoopGetFd,
 
-  DisplayServer(..), displayCreate, displayDestroy, displayGetEventLoop, displayAddSocket,
-  displayTerminate, displayRun, displayFlushClients, displayGetSerial, displayNextSerial,
+  -- DisplayServer(..), displayCreate, displayDestroy, displayGetEventLoop, displayAddSocket,
+  -- displayTerminate, displayRun, displayFlushClients, displayGetSerial, displayNextSerial,
 
-  clientCreate, clientDestroy, clientFlush, clientGetCredentials, clientPostNoMemory,
+  -- clientCreate, clientDestroy, clientFlush, clientGetCredentials, clientPostNoMemory,
 
-  ShmBuffer, shmBufferBeginAccess, shmBufferEndAccess, shmBufferGet, shmBufferGetData,
-  shmBufferGetStride, shmBufferGetFormat, shmBufferGetWidth, shmBufferGetHeight,
-  displayInitShm, displayAddShmFormat, shmBufferCreate
-  ) where
+  -- ShmBuffer, shmBufferBeginAccess, shmBufferEndAccess, shmBufferGet, shmBufferGetData,
+  -- shmBufferGetStride, shmBufferGetFormat, shmBufferGetWidth, shmBufferGetHeight,
+  -- displayInitShm, displayAddShmFormat, shmBufferCreate
+
 
 import Control.Monad (liftM)
 import Data.Functor ((<$>))
